@@ -22,10 +22,18 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+button {
+  margin: 4px 0 8px;
+  padding: 4px 8px 4px 26px;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  background-color: #f8f9fa;
+}
 
 .col-2 {
   background-color: #f6f6f6;
-  min-width: 10em;
+  min-width: 12em;
+  font-size: small;
 }
 .cog {
   width: 20px;
@@ -33,10 +41,13 @@ ul {
   float: right;
 }
 .pen {
-  width: 20px;
+  width: 15px;
   display: inline;
 }
 .edit {
   float: right;
+  color: #54595d;
+}
+.edit-link {
   color: #54595d;
 }
