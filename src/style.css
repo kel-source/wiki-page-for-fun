@@ -27,3 +27,16 @@ ul {
   background-color: #f6f6f6;
   min-width: 10em;
 }
+.cog {
+  width: 20px;
+  display: inline;
+  float: right;
+}
+.pen {
+  width: 20px;
+  display: inline;
+}
+.edit {
+  float: right;
+  color: #54595d;
+}
