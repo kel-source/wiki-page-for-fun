@@ -1,8 +1,7 @@
 body {
-  margin: 10px;
+  margin: 5px;
   background-color: aqua;
 }
-
 h6 {
   float: right;
   font-size: small;
@@ -29,7 +28,16 @@ button {
   border-radius: 2px;
   background-color: #f8f9fa;
 }
-hr {
+p {
+  margin: 0px;
+}
+
+.col-3 {
+  background-color: #f6f6f6;
+  font-size: small;
+  color: #54595d;
+}
+.side-hr {
   margin: 0px;
   border: 0;
   height: 1px;
@@ -39,16 +47,6 @@ hr {
     #a2a9b1,
     rgba(0, 0, 0, 0)
   );
-}
-p {
-  margin: 0px;
-}
-
-.col-2 {
-  background-color: #f6f6f6;
-  min-width: 12em;
-  font-size: small;
-  color: #54595d;
 }
 .cog {
   width: 15px;
