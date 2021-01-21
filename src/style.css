@@ -17,6 +17,11 @@ img {
   display: block;
   margin: 0 auto;
 }
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
 
 .col-2 {
   background-color: #f6f6f6;
