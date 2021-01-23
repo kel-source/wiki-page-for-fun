@@ -30,12 +30,17 @@ button {
 p {
   margin: 0px;
 }
+form {
+  position: relative;
+  display: inline;
+}
 
 .col-xs {
   background-color: #f6f6f6;
   font-size: small;
   color: #54595d;
   width: 155px;
+  margin-left: 15px;
 }
 .side-hr {
   margin: 0px;
@@ -64,9 +69,8 @@ p {
 .edit-link {
   color: #54595d;
 }
-form {
-  position: relative;
-  text-align: right;
+.right {
+  float: right;
 }
 .input {
   width: 25%;
@@ -78,5 +82,5 @@ form {
   z-index: 2;
   right: 0;
   padding: 3px;
-  margin-top: 1px;
+  margin-top: 5px;
 }
