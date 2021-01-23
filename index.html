@@ -16,7 +16,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs">
-          <img src="media/wiki-logo.png" />
+          <img class="logo" src="media/wiki-logo.png" />
           <br />
           <br />
           <ul>
@@ -79,7 +79,7 @@
             <li><a href="">Italiano</a></li>
             <li><a href="">中文</a></li>
           </ul>
-          <button>文A 94 more</button>
+          <button class="languages-button">文A 94 more</button>
           <br />
           <br />
           <p class="edit">
@@ -105,13 +105,13 @@
           <br />
           <div class="tabs">
             <span class="left">
-              <button>Article</button>
-              <button>Talk</button>
+              <button class="btn btn-light">Article</button>
+              <button class="btn btn-info"><a href="">Talk</a></button>
             </span>
             <span class="right">
-              <button>Read</button>
-              <button>View source</button>
-              <button>View history</button>
+              <button class="btn btn-light">Read</button>
+              <button class="btn btn-info"><a href="">View source</a></button>
+              <button class="btn btn-info"><a href="">View history</a></button>
               <form>
                 <input
                   class="input"
@@ -126,9 +126,13 @@
               </form>
             </span>
           </div>
-          <h1>Name</h1>
-          <hr />
-          <p>From Wikipedia, the free encyclopedia</p>
+          <hr class="tabs-hr" />
+          <div class="content">
+            <h2>Simon Pegg</h2>
+            <img class="padlock" src="media/padlock.webp" />
+            <hr class="content-hr" />
+            <p>From Wikipedia, the free encyclopedia</p>
+          </div>
         </div>
       </div>
     </div>
