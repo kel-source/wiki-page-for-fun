@@ -64,3 +64,19 @@ p {
 .edit-link {
   color: #54595d;
 }
+form {
+  position: relative;
+  text-align: right;
+}
+.input {
+  width: 25%;
+  border: 1px solid #a2a9b1;
+}
+.magnifying-glass {
+  width: 25px;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  padding: 3px;
+  margin-top: 1px;
+}
