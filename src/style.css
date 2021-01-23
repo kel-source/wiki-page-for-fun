@@ -39,9 +39,9 @@ h2 {
 }
 
 .col-xs {
-  background-color: #f6f6f6;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #f6f6f6 100%);
+  border-right: 1px solid #a7d7f9;
   font-size: 12px;
-  color: #54595d;
   width: 160px;
   margin-left: 15px;
 }
@@ -53,6 +53,7 @@ h2 {
 .side-hr {
   margin: 2px;
   margin-left: 20px;
+  margin-right: 20px;
   border: 0;
   height: 1px;
   background-image: linear-gradient(
@@ -66,33 +67,35 @@ h2 {
   width: 15px;
   display: inline;
   float: right;
+  margin-right: 10px;
 }
 .languages-button {
   margin: 4px 0 8px;
   border: 1px solid #a2a9b1;
   border-radius: 2px;
   background-color: #f8f9fa;
+  margin-left: 15px;
 }
 .pen {
   width: 15px;
   display: inline;
 }
-.edit {
+.edit-link {
   float: right;
   color: #54595d;
-}
-.edit-link {
-  color: #54595d;
+  margin-right: 15px;
 }
 
 .tabs {
-  margin-top: 20px;
+  margin-top: 12px;
 }
 .btn {
   float: left;
   border-radius: 0%;
   border-bottom-color: white;
   font-size: 13px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 .btn-light {
   border-top-color: white;
@@ -102,7 +105,7 @@ h2 {
   border-right-color: #d2e8f8;
 }
 .btn-info {
-  background-image: linear-gradient(white, #d2e8f8);
+  background-image: linear-gradient(white, #ebf4f9f8);
   border-color: white;
   border-left: none;
   border-right-color: #d2e8f8;
@@ -111,9 +114,9 @@ h2 {
   float: right;
 }
 .input {
-  width: 21vw;
+  width: 25vw;
   min-width: 5em;
-  max-width: 20em;
+  max-width: 23em;
   border: 1px solid #a2a9b1;
   font-size: 13px;
   padding: 3px;
@@ -128,7 +131,7 @@ h2 {
   margin-top: 2px;
 }
 .tabs-hr {
-  margin-top: 52px;
+  margin-top: 44px;
   background-color: #a7d7f9;
   opacity: 0.7;
 }
@@ -141,9 +144,13 @@ h2 {
   width: 20px;
   display: inline;
   float: right;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .content-hr {
-  margin-top: 0px;
+  margin-top: 2px;
   margin-bottom: 6px;
+  background-color: #b9bec4;
+}
+.content-p {
+  margin: 0px;
 }
